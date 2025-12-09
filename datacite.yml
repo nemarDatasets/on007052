@@ -3,20 +3,6 @@ data:
     types:
       resourceTypeGeneral: Dataset
     contributors:
-      - name: Cindy M. Bukach
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Researcher
-        order: 1
-      - name: Cathy L. Reed
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: Researcher
-        order: 2
       - name: Jane Couperus
         givenName: ''
         familyName: ''
@@ -26,15 +12,29 @@ data:
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
         contributorType: Researcher
+        order: 1
+      - name: Cindy M. Bukach
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+      - name: Cathy L. Reed
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
         order: 3
     creators:
+      - name: Jane Couperus
+        nameType: Personal
+        nameIdentifiers: *ref_0
       - name: Cindy M. Bukach
         nameType: Personal
       - name: Cathy L. Reed
         nameType: Personal
-      - name: Jane Couperus
-        nameType: Personal
-        nameIdentifiers: *ref_0
     descriptions:
       - description: N/A
         descriptionType: Abstract
