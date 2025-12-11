@@ -5,20 +5,29 @@
   },
   "duration": {
     "Description": "Duration of the event.",
-    "Units": "seconds"
-  },
-  "trial_type": {
-    "Description": "Experimental condition label for the event.",
-    "Levels": {
-      "211": "Related Word",
-      "212": "Related Word",
-      "221": "Unrelated Word",
-      "222": "Unrelated Word",
-      "201": "Correct Response",
-      "202": "Incorrect Response"
-    }
+    "Units": "s"
   },
   "value": {
-    "Description": "Original numeric event code imported from the EEG acquisition system."
+    "Description": "Original numeric event code imported from the EEG acquisition system.",
+    "Levels": {
+      "boundary" : "boundary event",
+      "211": "Related Word Probe",
+      "212": "Related Word Probe",
+      "221": "Unrelated Word Probe",
+      "222": "Unrelated Word Probe",
+      "201": "Correct Response",
+      "202": "Incorrect Response",
+      "110": "Unknown",
+      "120": "Unknown",
+      "210": "Unknown",
+      "220": "Unknown",
+      "111": "Related Word Prime",
+      "112": "Related Word Prime",
+      "121": "Unrelated Word Prime",
+      "122": "Unrelated Word Prime"
+    }
+  },
+  "sample": {
+    "Description": "Sample at which event occurred"
   }
 }
