@@ -1,7 +1,7 @@
 {
   "onset": {
     "Description": "Event onset time relative to the start of the EEG recording.",
-    "Units": "seconds"
+    "Units": "s"
   },
   "duration": {
     "Description": "Duration of the event.",
