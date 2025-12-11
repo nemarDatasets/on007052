@@ -7,6 +7,9 @@
     "Description": "Duration of the event.",
     "Units": "s"
   },
+  "sample": {
+    "Description": "Sample at which event occurred"
+  },
   "value": {
     "Description": "Original numeric event code imported from the EEG acquisition system.",
     "Levels": {
@@ -26,8 +29,5 @@
       "121": "Unrelated Word Prime",
       "122": "Unrelated Word Prime"
     }
-  },
-  "sample": {
-    "Description": "Sample at which event occurred"
   }
 }
