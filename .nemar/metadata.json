@@ -1,29 +1,72 @@
 {
   "version": "2.0",
-  "dataset_id": "on007052",
-  "source": "openneuro",
-  "source_id": "ds007052",
+  "pipeline_stage": "validated",
   "title": "PURSUE N400 Word Processing",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Couperus, J.W.": {},
     "Bukach, C.M.": {},
     "Reed, C.L.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007052.v1.1.2",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2020.117465",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007052",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007052",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "9.6 GB (292 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "description": "The PURSUE N400 Word Processing dataset comprises event-related potential (ERP) recordings from a word processing task collected at three undergraduate institutions across the United States in 2017-2018. This dataset contributes to the ERP CORE resource, providing standardized neurophysiological data for investigating semantic processing and the N400 component. The data supports research on cognitive language mechanisms and facilitates cross-site validation of ERP methodologies.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "N400 component"
+    },
+    {
+      "term": "word processing"
+    },
+    {
+      "term": "semantic processing"
+    },
+    {
+      "term": "language comprehension"
+    }
+  ],
+  "source_hash": "8b5440013810a3c518451c367625ea02f96f19447a3cbff30227c454b747713f"
 }
