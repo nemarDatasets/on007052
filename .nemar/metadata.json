@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PURSUE N400 Word Processing",
+  "description": "This dataset contains EEG recordings from a Word Processing task designed to elicit the N400 event-related potential (ERP) component, collected as part of the PURSUE project. Data were gathered from undergraduate participants at three institutions in California, Massachusetts, and Virginia during 2017 and 2018. The task paradigm follows the ERP CORE resource, and the dataset includes demographic information such as participant race.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,6 +10,29 @@
     "Bukach, C.M.": {},
     "Reed, C.L.": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "N400"
+    },
+    {
+      "term": "Event-Related Potentials",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004987"
+    },
+    {
+      "term": "word processing"
+    },
+    {
+      "term": "language comprehension"
+    },
+    {
+      "term": "race/ethnicity"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007052.v1.1.2",
@@ -26,15 +50,15 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007052",
+      "identifier": "https://nemar.org/dataset/on007052",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "9.6 GB (292 files)"
   ],
@@ -46,27 +70,6 @@
     ".tsv",
     ".txt",
     ".yml"
-  ],
-  "description": "The PURSUE N400 Word Processing dataset comprises event-related potential (ERP) recordings from a word processing task collected at three undergraduate institutions across the United States in 2017-2018. This dataset contributes to the ERP CORE resource, providing standardized neurophysiological data for investigating semantic processing and the N400 component. The data supports research on cognitive language mechanisms and facilitates cross-site validation of ERP methodologies.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "N400 component"
-    },
-    {
-      "term": "word processing"
-    },
-    {
-      "term": "semantic processing"
-    },
-    {
-      "term": "language comprehension"
-    }
   ],
   "source_hash": "8b5440013810a3c518451c367625ea02f96f19447a3cbff30227c454b747713f"
 }
