@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PURSUE N400 Word Processing",
-  "description": "This dataset contains EEG recordings from a Word Processing task designed to elicit the N400 event-related potential (ERP) component, collected as part of the PURSUE project. Data were gathered from undergraduate participants at three institutions in California, Massachusetts, and Virginia during 2017 and 2018. The task paradigm follows the ERP CORE resource, and the dataset includes demographic information such as participant race.",
+  "description": "This dataset contains EEG data from the Word Processing task of the PURSUE project, collected to elicit the N400 event-related potential (ERP) component associated with semantic word processing. Data were collected from participants at three primarily undergraduate institutions in Southern California, Massachusetts, and Virginia during 2017 and 2018. The task design follows the ERP CORE paradigm developed by Kappenman et al. (2021).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,16 +21,13 @@
       "term": "Event-Related Potentials",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004987"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004996"
     },
     {
       "term": "word processing"
     },
     {
-      "term": "language comprehension"
-    },
-    {
-      "term": "race/ethnicity"
+      "term": "semantic processing"
     }
   ],
   "related_identifiers": [
@@ -71,5 +68,6 @@
     ".txt",
     ".yml"
   ],
+  "methods_description": "Data were collected from participants at three primarily undergraduate academic institutions (Southern California, Massachusetts, and Virginia) in 2017 and 2018 using a word processing task derived from the ERP CORE paradigm.",
   "source_hash": "8b5440013810a3c518451c367625ea02f96f19447a3cbff30227c454b747713f"
 }
