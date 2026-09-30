@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PURSUE N400 Word Processing",
-  "description": "This dataset contains EEG data from the Word Processing task of the PURSUE project, collected to elicit the N400 event-related potential (ERP) component associated with semantic word processing. Data were collected from participants at three primarily undergraduate institutions in Southern California, Massachusetts, and Virginia during 2017 and 2018. The task design follows the ERP CORE paradigm developed by Kappenman et al. (2021).",
+  "description": "EEG dataset from the PURSUE project containing an N400 word processing task, recorded from participants at three primarily undergraduate institutions (Southern California, Massachusetts, and Virginia) in 2017 and 2018. The task design follows the ERP CORE paradigm. The dataset supports event-related potential research on semantic word processing.",
+  "methods_description": "Participants completed an N400 word processing task, with the paradigm based on ERP CORE. Data were collected at three academic institutions in 2017 and 2018. Task details are given in the supplementary materials.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,13 +16,10 @@
       "term": "EEG"
     },
     {
-      "term": "N400"
+      "term": "event-related potentials"
     },
     {
-      "term": "Event-Related Potentials",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004996"
+      "term": "N400"
     },
     {
       "term": "word processing"
@@ -57,7 +55,7 @@
     "eeg"
   ],
   "sizes": [
-    "9.6 GB (292 files)"
+    "8.97 GB (292 files)"
   ],
   "formats": [
     ".DS_Store",
@@ -68,6 +66,5 @@
     ".txt",
     ".yml"
   ],
-  "methods_description": "Data were collected from participants at three primarily undergraduate academic institutions (Southern California, Massachusetts, and Virginia) in 2017 and 2018 using a word processing task derived from the ERP CORE paradigm.",
   "source_hash": "8b5440013810a3c518451c367625ea02f96f19447a3cbff30227c454b747713f"
 }
